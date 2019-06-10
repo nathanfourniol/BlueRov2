@@ -1,0 +1,29 @@
+// Run Gazebo Model
+cd bluerov_ros_playground
+source gazebo.sh
+gazebo worlds/underwater.world -u
+# Start the simulation
+
+// Start SITL
+cd ardupilot/ArduSub
+sim_vehicle.py -j4
+
+/ Or Gazebo
+sim_vehicle.py -f gazebo-bluerov2 -I 0 -j4 -D -L RATBeach --console
+
+
+//Connect mavros with SITL 
+roslaunch mavros apm.launch fcu_url:=udp://0.0.0.0:14550@
+
+//Arm the ROV and put it on guided mode. 
+rosrun mavros mavsafety arm
+rosrun mavros mavsys mode -c GUIDED
+
+/RVIZ 3D model
+roslaunch bluerov_ros_playground rviz.launch
+
+/See drone position
+rostopic echo /mavros/local_position/odom/pose
+
+/Send linear and angular
+rostopic pub -r 10 /mavros/setpoint_velocity/cmd_vel geometry_msgs/TwistStamped "{header: auto, twist: {linear: {x: 10.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}}"
