@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nathan/ROS_bluerov2_ws/devel/.private/mavros/setup.sh

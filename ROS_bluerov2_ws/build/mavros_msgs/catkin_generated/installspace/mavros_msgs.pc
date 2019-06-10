@@ -1,0 +1,8 @@
+prefix=/home/nathan/ROS_bluerov2_ws/install
+
+Name: mavros_msgs
+Description: Description of mavros_msgs
+Version: 0.31.0
+Cflags: -I/home/nathan/ROS_bluerov2_ws/install/include
+Libs: -L/home/nathan/ROS_bluerov2_ws/install/lib 
+Requires: geographic_msgs geometry_msgs message_runtime sensor_msgs std_msgs

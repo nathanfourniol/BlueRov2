@@ -1,0 +1,1 @@
+/home/nathan/ROS_bluerov2_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake

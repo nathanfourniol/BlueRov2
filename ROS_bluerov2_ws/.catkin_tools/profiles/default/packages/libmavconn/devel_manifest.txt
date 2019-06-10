@@ -1,0 +1,6 @@
+mavros/libmavconn
+/home/nathan/ROS_bluerov2_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake /home/nathan/ROS_bluerov2_ws/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+/home/nathan/ROS_bluerov2_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake /home/nathan/ROS_bluerov2_ws/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+/home/nathan/ROS_bluerov2_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake /home/nathan/ROS_bluerov2_ws/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+/home/nathan/ROS_bluerov2_ws/devel/.private/libmavconn/lib/libmavconn.so /home/nathan/ROS_bluerov2_ws/devel/lib/libmavconn.so
+/home/nathan/ROS_bluerov2_ws/devel/.private/libmavconn/lib/pkgconfig/libmavconn.pc /home/nathan/ROS_bluerov2_ws/devel/lib/pkgconfig/libmavconn.pc

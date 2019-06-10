@@ -1,0 +1,6 @@
+mavros/test_mavros
+/home/nathan/ROS_bluerov2_ws/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake /home/nathan/ROS_bluerov2_ws/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+/home/nathan/ROS_bluerov2_ws/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake /home/nathan/ROS_bluerov2_ws/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+/home/nathan/ROS_bluerov2_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so /home/nathan/ROS_bluerov2_ws/devel/lib/libmavros_sitl_test.so
+/home/nathan/ROS_bluerov2_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node /home/nathan/ROS_bluerov2_ws/devel/lib/test_mavros/sitl_test_node
+/home/nathan/ROS_bluerov2_ws/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc /home/nathan/ROS_bluerov2_ws/devel/lib/pkgconfig/test_mavros.pc

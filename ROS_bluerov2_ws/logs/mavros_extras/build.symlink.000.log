@@ -1,0 +1,6 @@
+Symlinking /home/nathan/ROS_bluerov2_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/nathan/ROS_bluerov2_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Symlinking /home/nathan/ROS_bluerov2_ws/devel/lib/libmavros_extras.so
+Symlinking /home/nathan/ROS_bluerov2_ws/devel/lib/pkgconfig/mavros_extras.pc
+Symlinking /home/nathan/ROS_bluerov2_ws/devel/lib/mavros_extras/visualization
+Symlinking /home/nathan/ROS_bluerov2_ws/devel/lib/mavros_extras/servo_state_publisher
