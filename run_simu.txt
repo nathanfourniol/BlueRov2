@@ -1,4 +1,8 @@
-
+// Run Gazebo Model
+cd bluerov_ros_playground
+source gazebo.sh
+gazebo worlds/underwater.world -u
+# Start the simulation
 
 // Start SITL
 cd ardupilot/ArduSub
@@ -6,6 +10,7 @@ sim_vehicle.py -j4
 
 / Or Gazebo
 sim_vehicle.py -f gazebo-bluerov2 -I 0 -j4 -D -L RATBeach --console
+
 
 //Connect mavros with SITL 
 roslaunch mavros apm.launch fcu_url:=udp://0.0.0.0:14550@
