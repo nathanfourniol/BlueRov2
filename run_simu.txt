@@ -13,7 +13,7 @@ sim_vehicle.py -f gazebo-bluerov2 -I 0 -j4 -D -L RATBeach --console
 
 
 //Connect mavros with SITL 
-roslaunch mavros apm.launch fcu_url:=udp://0.0.0.0:14550@
+roslaunch mavros apm.launch fcu_url:=udp://1.0.0.0:14550@
 
 //Arm the ROV and put it on guided mode. 
 rosrun mavros mavsafety arm
