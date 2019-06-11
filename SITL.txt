@@ -76,3 +76,14 @@ cd ../
 catkin build --pkg bluerov_ros_playground
 source devel/setup.sh
 
+
+Setup for Gazebo :https://github.com/patrickelectric/ardupilot_gazebo
+sudo apt-get install libgazebo7-dev #for gazebo7
+
+git clone https://github.com/khancyr/ardupilot_gazebo
+cd ardupilot_gazebo
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
